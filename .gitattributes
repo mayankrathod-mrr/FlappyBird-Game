@@ -1,0 +1,25 @@
+# --- Line endings ---
+* text=auto
+
+# --- Java source files ---
+*.java text diff=java
+
+# --- Class files (binary) ---
+*.class binary
+
+# --- Video files (binary, no diff) ---
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# --- Optional image folder ---
+images/* binary
+
+# --- Markdown and config ---
+*.md text
+*.yml text
+*.yaml text
+
+# --- Ignore diff for compiled binary files ---
+*.class -diff
+*.mp4 -diff

@@ -1,0 +1,17 @@
+```yaml
+name: Flappy Bird Java Game
+description: A Java Swing-based Flappy Bird clone using custom GamePanel and pipe mechanics.
+author: Mayank R. Rathod
+repo: https://github.com/mayankrathod-mrr/FLAPPYBIRD
+entry_point: FlappyBird.java
+videos:
+  - demovd.mp4
+tags:
+  - Java
+  - Game
+  - Swing
+  - OOP
+  - Flappy Bird
+version: 1.0.0
+license: MIT
+created: 2025-08-06
